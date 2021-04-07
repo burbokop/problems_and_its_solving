@@ -36,7 +36,7 @@ Copy the following text to `User` file.
 ```
 #conan section
 message("Running conan...")
-execute_process(COMMAND conan install ${CMAKE_CURRENT_LIST_DIR} WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
+execute_process(COMMAND conan install --build=missing ${CMAKE_CURRENT_LIST_DIR} WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 #conan section end
