@@ -30,7 +30,7 @@ Copy the following text to `User` file.
 ]
 ```
 
-### issue 2: Running conan from cmake
+### issue 3: Running conan from cmake
 1. Create conanfile in folder with cmake
 2. Add to cmake:
 ```
